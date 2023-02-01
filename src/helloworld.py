@@ -1,6 +1,9 @@
+def hello_from(city):
+    print(f'Hello world from {city}')
+
+
 def main():
-    hello_world = 'hello world!'
-    print(hello_world)
+    hello_from('NYC')
 
 
 main()
